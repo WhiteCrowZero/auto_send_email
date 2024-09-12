@@ -1,0 +1,13 @@
+{
+    "smtp_server": "smtp.163.com",
+    "smtp_port": 465,
+    "smtp_username": "这里填写发送者的邮箱",
+    "smtp_password": "这里写入你的STMP密钥",
+    "receivers": [
+        "example@qq.com",
+		"这里填写接收者的邮箱"
+    ],
+    "subject": "Test Email Subject",
+    "template_file": "email_template.html",
+    "images_json": "image_mapping.json"
+}
